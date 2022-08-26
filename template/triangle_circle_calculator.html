@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {text-align: center;}
+h1   {color: blue;}
+p    {font-size: larger;}
+</style>
+</head>
+
+<body>
+
+<h1>Welcome to the TRICLE calculator</h1>
+<br>
+<h2>Tricle calculator helps you to calculate radii of various circles related to a triangle namely:- </h2>    
+<p>Incircle: The largest circle that will fit and just touch each side of the triangle. Its center (incenter) is the intersection of all three angle bisectors of a triangle.</p>
+<p>Circumcircle: The circle that passes through all three vertices of a triangle. Its center (circumcenter) is the point at which the perpendicular bisectors of the sides of a triangle intersect.</p>
+<p>Orthocircle: The point of intersection of the three altitudes of a triangle is called as orthocenter. The circle with orthocenter as its center, that passes through the vertices of a new triangle formed by drawing sides parallel to the original triangle is called as the orthocircle of that original triangle</p>
+<p>Nine-point circle: The circle that passes through nine points - midpoints of each side, foot of each altitude and midpoint of the line segment from each vertex of the triangle to the orthocenter. Its center (nine-point center) is the midpoint of the circumcenter and the orthocenter of the triangle.</p>
+<p>Excircle: the triangle is a circle lying outside the triangle, tangent to one of its sides and tangent to the extensions of the other two.</p>
+<br>
+<button onclick="location.href='{% url 'script' %}'">Open Calculator</button>
+
+</body>
+</html>
