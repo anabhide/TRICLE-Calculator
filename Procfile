@@ -1,0 +1,1 @@
+web: gunicorn triangle_website.wsgi
