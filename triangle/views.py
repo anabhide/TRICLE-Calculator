@@ -14,7 +14,7 @@ def main():
     # display window specifications
     window = Tk()
     window.geometry("800x800")
-    window.title("SHREE")
+    window.title("TRICLE Calculator")
     window.configure(background = "black")
     
     # labels of input sides
@@ -403,3 +403,7 @@ class draw_circles:
     def destroy_labels(self):
         self.d_label = Label(self.window, text = " " * 100, fg = "blue", bg = "black", font = ("Arial", 14))
         self.d_label.grid(row = 5, column = 1, sticky = W, pady = 10)
+
+
+if __name__ == "__main__":
+    main()
